@@ -1,8 +1,8 @@
-import React from "react";
+// import React from "react";
 import ReactDOM from "react-dom";
 
 function Greetings() {
-    return <h1>Hello There this is my first component</h1>
+  return <h1>afdshew hdsaf</h1>;
 }
 
-ReactDOM.render(<Greetings/>, document.getElementById('root'))
+ReactDOM.render(<Greetings />, document.getElementById("root"));
