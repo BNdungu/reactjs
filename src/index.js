@@ -5,17 +5,18 @@ import './style.css'
 
 function BookList() {
   return (
-    <section>
+    <section className="booklist">
       <Book />
       <Book />
+      <Book/>
     </section>
   );
 }
 
 const Book = () => {
   return (
-    <section>
-      <Image/>
+    <section className="book">
+      <Image />
       <Title/>
       <Author/>
     </section>
