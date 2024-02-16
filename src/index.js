@@ -1,10 +1,15 @@
 // import React from "react";
 import ReactDOM from "react-dom";
 
+import './style.css'
+
 function BookList() {
-  return <section>
-    <Book/>
-  </section>
+  return (
+    <section>
+      <Book />
+      <Book />
+    </section>
+  );
 }
 
 const Book = () => {
