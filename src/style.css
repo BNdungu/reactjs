@@ -33,3 +33,9 @@ h1{
     border-radius: 1rem;
     padding: 1rem 2rem;
 }
+
+.book h3 {
+    font-size: 0.75rem;
+    color: #617f98;
+    margin-top: 0.25px;
+}
