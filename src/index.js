@@ -4,10 +4,10 @@ import ReactDOM from "react-dom";
 import "./style.css";
 
 const firstBook = {
-  title : "Madness: Race and Insanity in a Jim Crow Asylum",
-  author : "Antonia Hylton",
-  img : "https://m.media-amazon.com/images/I/51NABu3WrhL._SY445_SX342_.jpg"
-}
+  title: "Madness: Race and Insanity in a Jim Crow Asylum",
+  author: "Antonia Hylton",
+  img: "https://m.media-amazon.com/images/I/51NABu3WrhL._SY445_SX342_.jpg",
+};
 
 const secondBook = {
   title: "Madness: Race and Insanity in a Jim Crow Asylum",
@@ -28,7 +28,14 @@ function BookList() {
         title={firstBook.title}
         img={firstBook.img}
         author={firstBook.author}
-      />
+      >
+        <p className="children">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat,
+          deleniti, minus maiores quam voluptatum non voluptatem eaque similique
+          autem officiis porro. Quidem inventore in esse atque fugit mollitia
+          iusto.
+        </p>
+      </Book>
       <Book
         title={secondBook.title}
         author={secondBook.author}
@@ -43,12 +50,13 @@ function BookList() {
   );
 }
 
-const Book = ({img,author,title}) => {
+const Book = ({ img, author, title, children}) => {
   return (
     <section className="book">
       <img src={img} alt="" />
       <h1>{title}</h1>
       <h3>{author}</h3>
+      {children}
     </section>
   );
 };
