@@ -48,7 +48,9 @@ const Book = (props) => {
   }
 
   return (
-    <section className="book">
+    <section className="book" onMouseOver = {() => {
+      console.log(author)
+    }}>
       <img src={img} alt="" />
       <h1 onClick = {() => console.log(title)}>{title}</h1>
       <h3>{author}</h3>
