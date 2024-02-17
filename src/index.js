@@ -39,12 +39,16 @@ function BookList() {
 const Book = (props) => {
   console.log(props)
   const {img,author,title,children} = props
+
+  const clickHandler = () => {
+    alert('hello world')
+  }
   return (
     <section className="book">
       <img src={img} alt="" />
-      <h1>{title}</h1>
+      <h1 onClick = {() => console.log(title)}>{title}</h1>
       <h3>{author}</h3>
-      {children}
+      <button type="button" onClick={clickHandler}>button</button>
     </section>
   );
 };
