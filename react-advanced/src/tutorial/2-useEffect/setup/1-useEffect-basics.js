@@ -7,7 +7,7 @@ const UseEffectBasics = () => {
   useEffect(() => {
     if (value > 1)
     document.title = `${value} New messages`
-  },[])
+  },[value])
 
   return (
     <>
