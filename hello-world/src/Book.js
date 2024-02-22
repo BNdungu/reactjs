@@ -15,7 +15,7 @@ const Book = (props) => {
     <section
       className="book"
       onMouseOver={() => {
-        console.log(author);
+        console.log(author, author);
       }}
     >
       <img src={img} alt="" />
