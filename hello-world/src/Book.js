@@ -9,7 +9,7 @@ const Book = (props) => {
 
   const complexExample = () => {
     console.log(author);
-  };
+  }; 
 
   return (
     <section
