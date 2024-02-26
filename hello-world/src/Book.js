@@ -24,7 +24,7 @@ const Book = (props) => {
       <button type="button" onClick={clickHandler}>
         button
       </button>
-      <button type="button" onClick={() => complexExample(author)}>
+      <button type="button" onClick={() => complexExample(author)}> 
         complex example
       </button>
     </section>
