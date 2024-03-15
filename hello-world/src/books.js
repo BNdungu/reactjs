@@ -4,7 +4,7 @@ export const books = [
     title: "Madness: Race and Insanity in a Jim Crow Asylum",
     author: "Antonia Hylton",
     img: "https://m.media-amazon.com/images/I/81kZ3Gl3WKL._AC_UY218_.jpg",
-  },
+  },  
   {
     _id: 2,
     title: "I Love You to the Moon and Back",
